@@ -32,8 +32,8 @@ A simple RESTful API built with Spring Boot and MySQL that allows users to creat
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/post-likes-api.git
-cd post-likes-api
+git clone https://github.com/urjamodi24/think41_task_socialmedia_api.git
+cd think41_task_socialmedia_api
 ````
 
 ### 2. Configure Database
@@ -47,7 +47,7 @@ CREATE DATABASE postlikesdb;
 Update `src/main/resources/application.properties`:
 
 ```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/postlikesdb
+spring.datasource.url=jdbc:mysql://localhost:3306/social_db
 spring.datasource.username=root
 spring.datasource.password=your_password
 spring.jpa.hibernate.ddl-auto=update
